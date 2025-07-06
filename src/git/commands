@@ -17,3 +17,24 @@ git add .
 
 ~ Commit
 git commit -m "First commit"
+
+~ Commit without going to Staging Area. Commiting directly from Working Directory
+git commit -a -m "My commit"
+
+~ Commit ID
+Checksum is created using SHA-1
+It is a 40 character ID. Only first 7 is displayed.
+
+~ Difference
+git diff            [Check differences from Working directory.
+git diff --staged   [Check differences from Staged area]
+
+~ Delete or Remove file from git
+git rm --cached creds.txt   [Post this delete the file from working directory]
+
+~ How Git works?
+Initialize a repo with git init in the working directory
+Make changes in the file or folder structure in the working directory
+Add the changes to staging area by using git add command
+Then commit the changes byt using git commit command.
+
