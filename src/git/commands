@@ -1,0 +1,19 @@
+git --version
+
+git config
+git config --global --list
+git config --global user.name "mourya"
+git.config --global user.email "mourya.dasgupta@gmail.com"
+
+git status
+
+~ Initializing an empty git repository
+git init            [To initialize an empty git repo using default branch]
+git init -b main    [To initialize an empty git repo using 'main' branch]
+
+~ Add
+git add Filename.txt
+git add .
+
+~ Commit
+git commit -m "First commit"
