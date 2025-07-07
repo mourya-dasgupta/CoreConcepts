@@ -25,6 +25,9 @@ git commit -a -m "My commit"
 Checksum is created using SHA-1
 It is a 40 character ID. Only first 7 is displayed.
 
+~ Push
+git push origin main
+
 ~ Difference
 git diff            [Check differences from Working directory.
 git diff --staged   [Check differences from Staged area]
@@ -38,3 +41,16 @@ Make changes in the file or folder structure in the working directory
 Add the changes to staging area by using git add command
 Then commit the changes byt using git commit command.
 
+~ SSH
+ssh-keygen -o
+(follow the process)
+(Create a new repo in github and then paste the below command)
+git remote add origin git@github.com:mourya-dasgupta/CoreConcepts.git
+
+~ Origin
+git remote -v
+
+~ Tag
+git tag
+git tag -a v1.0 -m "1st release"
+git show v1.0
