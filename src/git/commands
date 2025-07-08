@@ -1,45 +1,78 @@
 git --version
+git help <verb>
+git status
 
+~ Configuration
 git config
 git config --global --list
 git config --global user.name "mourya"
 git.config --global user.email "mourya.dasgupta@gmail.com"
 
-git status
+~ Log
+git log
+git log --pretty=oneline    [Shows commit id and commit message]
 
-~ Initializing an empty git repository
+~ Initializing an empty repository
 git init            [To initialize an empty git repo using default branch]
 git init -b main    [To initialize an empty git repo using 'main' branch]
 
-~ Add
-git add Filename.txt
-git add .
+~ Adding to Staging Area
+git add Filename.txt    [Adding a particular file]
+git add .               [Adding all unmarked or modified files]
+git remote add origin 'projectLink'
 
-~ Commit
-git commit -m "First commit"
+~ Restore from Staging Area
+git restore --staged name.txt   [to remove particular file from staging area which was added by mistake]
 
-~ Commit without going to Staging Area. Commiting directly from Working Directory
-git commit -a -m "My commit"
-
-~ Commit ID
-Checksum is created using SHA-1
-It is a 40 character ID. Only first 7 is displayed.
-
-~ Push
-git push origin main
-
-~ Difference
-git diff            [Check differences from Working directory.
-git diff --staged   [Check differences from Staged area]
+~ Reset Commit
+git reset commitID  [Moves back to commitId changes and deletes all other commits made on top of it]
 
 ~ Delete or Remove file from git
 git rm --cached creds.txt   [Post this delete the file from working directory]
+rm -rf names.txt [delete a particular file]
 
-~ How Git works?
-Initialize a repo with git init in the working directory
-Make changes in the file or folder structure in the working directory
-Add the changes to staging area by using git add command
-Then commit the changes byt using git commit command.
+{LOCAL REPOSITORY}
+
+~ Commit
+git commit -m "First commit"    [Committing the changes from staging area to local repository]
+git commit -a -m "My commit"    [Commit without going to Staging Area. Committing directly from Working Directory]
+~ Commit ID
+Checksum is created using SHA-1.
+It is a 40 character ID. Only first 7 is displayed.
+
+~ Stash
+git stash [Post adding the untracked files to staging area, if we want to stash the files from staging area]
+git stash pop [to bring back the stashed changes back to staging area]
+git stash clear [to clear up the stash changes which are no longer required]
+
+~ Difference
+git diff                       [Check differences from Working directory.
+git diff --staged              [Check differences from Staged area]
+git diff commitId1 commitId2   [Check differences between 2 particular commits]
+
+~ Branching
+git branch  [Shows all local branches. Furthermore points the current branch you are in with an '*']
+git branch --all    [Shows all the local as well as remote branches available]
+git branch -b feature/issue101  [Creates new branch]
+git switch -c feature/issue102  [Creates new branch]
+
+~ Switching branches
+git checkout main OR git switch main                                [Switches to main branch]
+git switch -                                                        [Switches to last branch]
+git checkout commitId                                             [Switches to a particular commit]
+git branch -d feature/issue2 OR git branch --delete feature/issue2  [Delete a branch]
+
+{REMOTE REPOSITORY}
+
+~Clone
+git clone httpLINK  [Requires Creds]
+git clone sshLINK   [Do not require creds if Keygen setup is completed]
+
+~ Push
+git push origin main
+git push --set-upstream origin main
+
+~ Merge [Git uses 3 way Merge strategy]
 
 ~ SSH
 ssh-keygen -o
@@ -54,3 +87,74 @@ git remote -v
 git tag
 git tag -a v1.0 -m "1st release"
 git show v1.0
+git push origin v1.0
+
+~ Git Ignore
+echo config.properties > .gitignore
+
+~ How Git works?
+
+Initialize a repo with git init command in the working directory which creates a special .git hidden directory in your project.
+Git stores data as the snapshot of the entire project. When we commit changes in git a new snapshot of all the files at the particular time
+is being taken. Everything is stored inside .git folder which is hidden. First, any newly created or modified  file will be placed
+in the working directory. This is where all your work happens and changes in the working directory are not tracked by Git.
+
+Post making changes in the files in the working directory, add the changes to staging area by using git add command.
+
+Then commit the changes by using git commit command to move the codebase to locally created repository. This is where the project history
+is being stored.
+
+Use git push command to push you changes from local repo to remote repo.
+
+                WORKING DIRECTORY               STAGING AREA                LOCAL REPO              REMOTE REPO             STASH
+git init            [Ctrl]
+git add .              C                        -> [Ctrl]
+git commit                                           C                     -> [Ctrl]
+git push                                                                        C                    -> [Ctrl]
+
+git clone                                                                     [Ctrl] <-                 C
+git checkout        [Ctrl] <-                                                    C
+
+git fetch                                                                     [Ctrl] <-                 C
+git merge           [Ctrl] <-                                                   C
+git pull {f + m}    [Ctrl] <-                                                                           C
+
+git stash save                                       C                                                                    -> [Ctrl]
+git stash pop       [Ctrl] <-                                                                                                  C
+
+
+
+
+~ GIT MERGE
+
+MAIN    -----A-------B--------------------------C-----------Merge
+                     |                                  |
+Feature              |----------X---------------Y-------|
+
+C diff B -> Snapshot 1
+Y diff B -> Snapshot 2
+
+While merging, Git will compare and find the list of differences between the current branches’ snapshots and the last common point.
+The idea is to combine and then apply these changes after the last common commit, so that we end up with all the changes in one place
+on the main branch.
+There are 3 possible scenarios.
+1. [No File Overlap] These changes could be in separate files. In this case, applying them is straightforward  since there is no code overlapping.
+2. [No Line Overlap] Similar scenario. If the changes are targeting the same file, but the changed lines are different, again, we could
+just update the file in a straightforward manner.
+3. [Line Overlap] In this scenario both branches have changes targeting the same file and the same lines. In this case, the merge cannot be performed
+automatically, and you have to manually jump into these files and resolve the conflicts. It’s important to know that this merge process
+will be solved via a merge commit.
+
+~ MERGE
+Git merge pulls in the latest changes from main in the feature branch creating a new merge commit in the process tying
+the 2 branches together with a knot. It gives us a complete picture of the commit history and branch evolution.
+
+~ REBASE
+Git rebase changes the base of a feature branch with the latest commit on main and then we place our changes from there.
+It gives us a clean straightforward commit history. Performs a fast forward merge. It tidies up history by moving commits to the
+main branch's tip.
+
+~ SQUASH Commit
+Squeezing all the feature branch commits to one single commit and merge into main. Keeps Main branch's history linear by creating a
+single merge commit. But we lose the fine details of individual feature commits in the main branch's commit history.
+Consolidates commits into one providing a clean linear commit history.
