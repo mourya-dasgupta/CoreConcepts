@@ -22,7 +22,7 @@ public class CompundInterestCalculator {
         years = sc.nextInt();
 
         amount = principal * Math.pow(1 + (rate / timesCompounded),(timesCompounded * years));
-        System.out.printf("The Principal of INR %,.2f in %d years at %.2f %% rate of interest by compounding %d times a year amounts to INR %,.2f ", principal,years,rate,timesCompounded,amount);
+        System.out.printf("The Principal of INR %,.2f in %d years at %.2f%% rate of interest by compounding %d times a year amounts to INR %,.2f ", principal,years,rate*100,timesCompounded,amount);
 
         sc.close();
     }

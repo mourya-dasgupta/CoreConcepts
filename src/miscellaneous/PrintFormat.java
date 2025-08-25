@@ -1,15 +1,16 @@
 package miscellaneous;
 
 /**
- *  %[flags][width][].precision][specifier-character]
+ * printf() is a method used to format output.
+ *  %[flags][width][.precision][specifier-character]
  *  ~flags~
  *  '+' [returns positive or negative sign based on the number]
  *  ',' [comma grouping separator]
  *  '(' [negative number are enclosed in brackets()]
- *  ' ' [display a minus if negative, otherwise blank space
+ *  ' ' [display a minus if negative, otherwise blank space, to maintain a significant left line
  *  ~width~
- *  0 [zero padding]
- *  number [right justified padding]
+ *  0 [zero padding from left to make vertical alignment]
+ *  number [right justified padding, padding with black spaces]
  *  negative number [left justified padding]
  */
 public class PrintFormat {
@@ -45,11 +46,13 @@ public class PrintFormat {
         System.out.printf("\n%04d",o);
         System.out.printf("\n%04d",p);
 
+        //Right Aligned
         System.out.printf("\n%4d",m);
         System.out.printf("\n%4d",n);
         System.out.printf("\n%4d",o);
         System.out.printf("\n%4d",p);
 
+        //Left Aligned
         System.out.printf("\n%-4d",m);
         System.out.printf("\n%-4d",n);
         System.out.printf("\n%-4d",o);

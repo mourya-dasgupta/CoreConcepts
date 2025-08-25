@@ -1,15 +1,16 @@
 package miscellaneous;
 
 /**
+ * Also known as Widening Conversion
  * Implicit : Conversion
  * When we try to assign a value of small datatype to a variable of large datatype, the conversion happens IMPLICITLY.
  */
 public class TypeConversion {
     public static void main(String[] args) {
-        byte b = 127;
-        short s = b;
-        int i = s;
-        long l = i;
+        byte b = 127;   //cup
+        short s = b;    //mug
+        int i = s;      //jug
+        long l = i;     //bucket
 
         float f = l;
         double d = l;

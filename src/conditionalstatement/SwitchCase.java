@@ -68,5 +68,19 @@ public class SwitchCase {
             default :
                 System.out.println("Not a family member.");
         }
+
+        System.out.println("Enter the day of the week : ");
+        String dayOfTheWeek = sc.next().toUpperCase();
+
+        switch(dayOfTheWeek) {
+            case "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY" :
+                    System.out.println("It is a Weekday 😒");
+                    break;
+            case "SATURDAY", "SUNDAY" :
+                    System.out.println("It is the Weekend 😁");
+                    break;
+            default :
+                    System.out.println("Not a valid day.");
+        }
     }
 }

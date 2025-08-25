@@ -57,9 +57,39 @@ public class TypesOfOperators {
 
         //Bitwise Operators
         System.out.println("~~Bitwise Operators~~");
+        int x = 2;
+        int y = 3;
+        //AND (& : When both the bits are 1, then only it returns 1, else 0)
+        System.out.println("AND Operation");
+        System.out.println("5 & 3 = " + (a & b));
+        System.out.println("Binary : " + Integer.toBinaryString(a & b));
+        //OR (| : When any one of the bits are 1, it returns 1,e else 0)
+        System.out.println("OR Operation");
+        System.out.println("5 | 3 = " + (a | b));
+        System.out.println("Binary : " + Integer.toBinaryString(a | b));
+        //XOR (^ : When both the bits are not same, then only it returns 1, else 0)
+        System.out.println("XOR Operation");
+        System.out.println("5 ^ 3 = " + (a ^ b));
+        System.out.println("Binary : " + Integer.toBinaryString(a ^ b));
+        //Complement or NOT (~ : Returns inverse of a bit)
+        System.out.println("NOT Operation");
+        System.out.println("~5 = " + (~a));
+        System.out.println("Binary : " + Integer.toBinaryString(~a));
 
         //Shift Operators
         System.out.println("~~Shift Operators~~");
+        //Left Shift (<< : Shifts one bit to the left side from right side and adds a 0 at the end. eg: 0101 << 1 : 1010)
+        System.out.println("Left Shift Operation");
+        System.out.println("5 << 1 = " + (a << 1));
+        System.out.println("Binary : " + Integer.toBinaryString(a << 1));
+        //Signed Right Shift >>
+        System.out.println("Signed Right Shift Operation");
+        System.out.println("5 >> 1 = " + (a >> 1));
+        System.out.println("Binary : " + Integer.toBinaryString(a >> 1));
+        //Unsigned Right Shift >>>
+        System.out.println("Unsigned Right Shift Operation");
+        System.out.println("5 >>> 1 = " + (a >>> 1));
+        System.out.println("Binary : " + Integer.toBinaryString(a >>> 1));
 
         //InstanceOf Operator
         System.out.println("~~Instanceof Operator~~");
@@ -67,3 +97,12 @@ public class TypesOfOperators {
         System.out.println(sc instanceof Scanner);
     }
 }
+
+/**
+ * Bitwise Operators
+ *  A   B   A&B     A|B     A^B     ~A
+ *  0   0    0       0       0       1
+ *  0   1    0       1       1       1
+ *  1   0    0       1       1       0
+ *  1   1    1       1       0       0
+ */

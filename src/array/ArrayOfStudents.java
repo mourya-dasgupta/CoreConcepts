@@ -17,8 +17,8 @@ public class ArrayOfStudents {
         s2.roll = 10;
         s2.marks = 99;
 
-        Student students[] = new Student[] {s1,s2};
-
+//        Student students[] = new Student[] {s1,s2};
+        Student students[] = {s1,s2};
         for(Student s : students) {
             System.out.println(s.name + "   " + s.roll + "   " + s.marks);
         }

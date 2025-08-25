@@ -5,6 +5,9 @@ import java.util.Scanner;
 /**
  * Issue : In Scanner class issue with nextLine() occurs when we use any other next() method before using nextLine()
  * Resolution : Use an extra nextLine() to consume the extra '\n'
+ * eg: int input = scanner.nextInt();
+ *     sc.nextLine();           //resolution to consume the enter pressed after entering the value for input
+ *     String display = scanner.nextLine();
  */
 public class ScannerIssue {
     public static void main(String[] args) {
@@ -25,7 +28,7 @@ public class ScannerIssue {
            Here nextInt() will only read 33 and keep the '\n' in the buffered memory,
            thus when in the next line we are seeking value from nextLine(),
            '\n' from buffered memory is acting as an input to nextLine().
-           So the control is not waiting for our physical input.
+           So the control is not waiting for our actual keyboard input.
         */
 
         System.out.println("Age : " + age);

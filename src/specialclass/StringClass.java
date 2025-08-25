@@ -9,8 +9,8 @@ package specialclass;
 public class StringClass {
     public static void main(String[] args) {
 
-        String name1 = new String("Mourya");
-        String name2 = "Sourya";
+        String name1 = new String("Mourya");    //Created using Constructor
+        String name2 = "Sourya";                       //Created using Literal
         //In stack memory name1 and name2 will be created which will point out to the respective reference addresses of the objects in Heap memory.
 
         //concatenation
