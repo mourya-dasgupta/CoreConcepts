@@ -6,10 +6,10 @@ import java.io.IOException;
 
 public class FileWriterEg {
     public static void main(String[] args) {
-        String filePath = "/Users/mourya_dg/WORKSPACES/JavaWS/CoreConcepts/prediction.txt";
+        String filePath = "/Users/mourya_dg/WORKSPACES/JavaWS/CoreConcepts/testEg.txt";
         String textContent = """
-                I will crack a MAANG in next 6 months.
-                I will work hard for it.
+                This is a file.
+                This file is written by Mourya Dasgupta.
                 """;
         try(FileWriter writer = new FileWriter(filePath)) {
             writer.write(textContent);
