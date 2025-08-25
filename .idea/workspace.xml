@@ -5,96 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="746b8534-2857-4e94-b0a5-d2ce4170e126" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/prediction.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ArrayEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ArrayListEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Varargs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conditionalstatement/EnhancedSwitchCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filereadandwrite/FileWriterEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loops/BreakContinueKeywords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minorprojects/BankingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minorprojects/DiceRollVisualizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minorprojects/GuessingGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minorprojects/MadLibsGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minorprojects/NewYearCountDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minorprojects/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minorprojects/RockPaperScissors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minorprojects/SlotMachineGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minorprojects/TelephoneKeypad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miscellaneous/ExceptionHandlingEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miscellaneous/MemoryAllocation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miscellaneous/VariableScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/AbstractionEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/AggregationEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/AnonymousObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/CompositionEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/ConstructorEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/EncapsulationEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/GettersAndSetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/InheritanceEg1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/InheritanceEg2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/InheritanceEg3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/InterfaceEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/Macbook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/PolymorphismEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/StaticKeywordEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopsconcept/WrapperClassEg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/Operators/MathClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/Operators/OrderOfOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/Operators/OrderOfOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/Operators/TypesOfOperators.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/Operators/TypesOfOperators.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/array/ArrayOfStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/array/ArrayOfStudents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/array/ArraysClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/array/ArraysClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/classesAndObjects/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/classesAndObjects/ClassesAndObjects.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/classesAndObjects/MethodOverloading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/classesAndObjects/MethodOverriding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/classesAndObjects/Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/conditionalStatement/IfElse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/conditionalStatement/IfElse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/conditionalStatement/SwitchCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/conditionalStatement/SwitchCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/conditionalStatement/TernaryOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/conditionalStatement/TernaryOperator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/loops/DoWhileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/loops/DoWhileLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/loops/WhileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/loops/WhileLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/Calculate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/CompundInterestCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/CompundInterestCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/DiceRoller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/DiceRoller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/FlipACoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/FlipACoin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/ShoppingCart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/UsernameValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/minorProjects/UsernameValidation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/Datatypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/Datatypes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/MemoryAllocation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/Mobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/Mobile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/PrintFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/PrintFormat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/StaticVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/StaticVariable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/TypeCasting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/TypeCasting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/TypeConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/miscellaneous/TypeConversion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/specialClass/RandomClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/specialClass/RandomClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/specialClass/StringBufferClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/specialClass/StringBufferClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/specialClass/StringClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/specialClass/StringClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/userInput/ScannerInputs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/userInput/ScannerInputs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreConcepts/userInput/ScannerIssue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreConcepts/userInput/ScannerIssue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/ArrayOfStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ArrayOfStudents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/ArraysClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ArraysClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classesandobjects/ClassesAndObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopsconcept/ClassesAndObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classesandobjects/MethodOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopsconcept/MethodOverloading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classesandobjects/MethodOverriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopsconcept/MethodOverriding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conditionalstatement/SwitchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conditionalstatement/SwitchCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/git/commands" beforeDir="false" afterPath="$PROJECT_DIR$/src/git/commands" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loops/DoWhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loops/DoWhileLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loops/WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loops/WhileLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minorprojects/CompundInterestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minorprojects/CompundInterestCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miscellaneous/Datatypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miscellaneous/Datatypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miscellaneous/MemoryAllocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miscellaneous/MemoryAllocation1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miscellaneous/PrintFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miscellaneous/PrintFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miscellaneous/TypeCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miscellaneous/TypeCasting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miscellaneous/TypeConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miscellaneous/TypeConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operators/MathClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialclass/MathClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operators/TypesOfOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/operators/TypesOfOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/specialclass/StringClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialclass/StringClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/userinput/ScannerIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userinput/ScannerIssue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +75,7 @@
     "Application.InheritanceEg1.executor": "Run",
     "Application.InheritanceEg2.executor": "Run",
     "Application.InheritanceEg3.executor": "Run",
+    "Application.InputFromUserBufferedWithTryCatch.executor": "Run",
     "Application.InterfaceEg.executor": "Run",
     "Application.JaggedArray.executor": "Run",
     "Application.LinearSearch.executor": "Run",
@@ -214,6 +126,15 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="InputFromUserBufferedWithTryCatch" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputFromUserBufferedWithTryCatch" />
+      <module name="CoreConcepts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
